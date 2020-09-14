@@ -1,9 +1,9 @@
 resources:
   repositories:
-    - repository: Microsoft/IIS.Common
+    - repository: rag70/IIS.Common
       type: github
-      name: Microsoft/IIS.Common
+      name: rag70/IIS.Common
       endpoint: GitHub-IIS-PAT
 
 jobs:
-- template: azure-pipelines.yml@Microsoft/IIS.Common  # Template reference
+- template: azure-pipelines.yml@rag70/IIS.Common  # Template reference
