@@ -5,9 +5,9 @@ trigger: none
 
 resources:
   repositories:
-    - repository: MicrosoftIISCommon
+    - repository: rag70/IIS.Common
       type: github
-      name: Microsoft/IIS.Common
+      name: rag70/IIS.Common
       endpoint: GitHub-IIS-PAT
 
 jobs:
